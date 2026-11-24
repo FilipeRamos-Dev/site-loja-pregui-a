@@ -1,37 +1,215 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+
+    background-color: #8160de;
+    color: #d7d7d7;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2, h3{
+    color: #002952;
+}
+
+h1{
+    display: flex;
+    align-items: flex-start;
+    color:cornflowerblue;
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    color: skyblue;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #242c5b;
+    color: white;
+    padding: 30px 0;
+    background-image: url(../imgs/logo-preguica.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right;
+    height: 350px;
+}
+
+#etiqueta{
+    margin-bottom: 5px;
+    color: cadetblue;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* margin-left: 30px; */
+    display: flex;
+
+}
+
+.subtitulo{
+    max-width: 700px;
+}
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-lista li{
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.secao{
+    margin: 72px;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+    border-left: 5px solid #2563eb;
+    border-radius: 5px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: rgb(88, 96, 248);
+    border: 1px solid #78c0ff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.lista-tecnologias{
+    display: inline-block;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-tecnologias li{
+    padding: 10px 14px;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #d8e0e8;
+    border-radius: 999px;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    text-align: center;
+}
+
+.rodape-anddress{
+    font-style: normal;
+}
+
+code, pre{
+    font-family: Consolas, "Courier New", monospace;
+}
+
+
+
+
+
+/* 
 body{
     font-size: 16px;
     margin: 0;
     background-color: #fffff9;
     color: #1f2937;
     line-height: 1.6;
+
 }
 
-h1, p, h2, h3{
+p, h2, h3, .secao, .container{
     margin-bottom: 30px;
-    margin-left: 140px;
+    margin-left: 90px;
+}
+
+#etiqueta{
+     margin-left: 220px;
+     height: 50px;
+}
+
+h1{
+    margin-left: 220px;
 }
 
 .cabecalho{
-    width: 1540px;
+    width: 1473px;
     background-color: #003d80;
     padding: 20px;
     height: 250px;
-       
+    
 }
-
+*/
 .modelo-li{
     display: inline-block;
     list-style: none;
+    margin-left: 120px;
+    font-size: 25px;
 }
 
 .modelo-li li{
     display: inline-block;
     list-style: none;
+    
 }
 
+
+
+
 .rodape{
-    text-align: center;
     height: 100px;
     display: flex;
     align-items: center;
-}
+    
+    
+} 
