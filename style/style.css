@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: Sport-Word;
+    src: url(../fontes/sports_world/Sports\ World-Regular.otf);
+}
+
+
 *{
     box-sizing: border-box;
     
@@ -25,6 +32,7 @@ h1{
     font-size: 38px;
     margin-bottom: 10px;
     margin-left: 100px;
+     font-family: Sport-Word;
 }
 
 h2{
@@ -107,8 +115,10 @@ a:hover{
 .titulo-secao{
     margin-bottom: 32px;
     padding-left: 12px;
-    border-left: 5px solid #2563eb;
+    border: 1px solid #78c0ff;
+    border-left: 10px solid #2563eb;
     border-radius: 5px;
+    background-color: rgb(88, 96, 248);
 }
 
 .grade-cards{
@@ -141,9 +151,11 @@ a:hover{
 }
 
 .rodape{
-    margin-top: 40px;
-    padding: 25px;
+    height: 220px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    background-color: #002952;
 }
 
 .rodape-anddress{
@@ -155,41 +167,6 @@ code, pre{
 }
 
 
-
-
-
-/* 
-body{
-    font-size: 16px;
-    margin: 0;
-    background-color: #fffff9;
-    color: #1f2937;
-    line-height: 1.6;
-
-}
-
-p, h2, h3, .secao, .container{
-    margin-bottom: 30px;
-    margin-left: 90px;
-}
-
-#etiqueta{
-     margin-left: 220px;
-     height: 50px;
-}
-
-h1{
-    margin-left: 220px;
-}
-
-.cabecalho{
-    width: 1473px;
-    background-color: #003d80;
-    padding: 20px;
-    height: 250px;
-    
-}
-*/
 .modelo-li{
     display: inline-block;
     list-style: none;
@@ -204,12 +181,44 @@ h1{
 }
 
 
+.lista-prioridades{
+    display: inline-block;
+    list-style: none;
+}
 
+.lista-prioridades li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin: 3px;
+    background-color: #fff;
+    color:rgb(88, 96, 248);
+    box-shadow: 0 10px 30px #595959;
+    border-radius: 20px;
+}
 
-.rodape{
-    height: 100px;
+.img{
+    
+    border-radius: 20px;
+    border: 2px solid #8160de;
+    width: 250px;
+    transition: 0.5s;
+    
+}
+
+.img:hover{
+    transform: translateY(-8px);
+    box-shadow: 30px rgba(48, 46, 60, 0.08);
+}
+
+.card:img{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
     
-    
-} 
+}
+
+#img-plano{
+    width: 950px;
+    border-radius: 15px;
+}
